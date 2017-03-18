@@ -36,7 +36,7 @@ var routes_setter = require('./server/config/routes');
 routes_setter(app);
 
 // setting the server and port
-app.listen(9000, function () {
-    console.log('listening on port 9000 for project mongoose message board')
+app.listen(8000, function () {
+    console.log('listening on port 8000 for project mongoose message board')
 
 })
